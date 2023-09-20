@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+html{
+    height: 100vh;
+    font-size: 14px;
+}
+
+body{
+    background-color: black;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 160%;
+    justify-content: center;
+}
+
+.container{
+    height: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.degrade{
+    background: linear-gradient(to right, #ff006a, #ff0000);
+}
+
+header{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+header img{
+    max-width: 200px;
+    margin-bottom: 20px;
+    border-radius: 130px;
+}
+
+header h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color:rgb(87, 87, 87);
+}
+
+.botoes-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link button{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #fff;
+    transition: .2s;
+}
+
+.link button:hover, footer a.btn-footer:hover{
+    transform: scale(1.07);
+}
+
+.link i{
+    font-size: 1.2em;
+}
+
+footer{
+    text-align: center;
+    margin: 30px;
+}
+
+footer a.btn-footer{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: .2s;
+}
+
+
+h1 {
+    color: #666;
+    text-align: center;
+    margin: 25px;
+  }
+  
+  form {
+    background: linear-gradient(to right, #ff006a, #ff0000);
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 50px;
+    padding: 20px;
+  }
+  
+  input, textarea, button {
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 5px;
+    color: #777;
+    font-size: 18px;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  button {
+    color: #ffffff;
+    background: linear-gradient(to right, #ff006a, #ff0000);
+    cursor: pointer;
+    font-weight: bold;
+  }
